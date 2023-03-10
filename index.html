@@ -1,6 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        bare
-    </body>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="prism.css">
+  <link type="text/plain" rel="author" href="/humans.txt" />
+  <script src="prism.js"></script>
+  <title>Ponder Codes a Game in Dart</title>
+</head>
+
+<body id="top">
+
+  <header>
+    <h1>A Game in Dart</h1>
+    <p class="author">Ponder<br>January 2023</p>
+  </header>
+  <div id="dark-mode-toggle" style="cursor:pointer;position:absolute;top:0px;left:10px;" ;>&#127763;</div>
+
+  <div class="abstract">
+    <h2>Abstract</h2>
+    <p>
+      Hi. I'm Ponder. Of course, that's a pseudonym. I write code. I've been in the software industry for
+      Quite Some Time. I like writing software, building automated systems. I suppose I'll be using this as
+      a creative outlet. Or ... more like documenting my creative outlet project.
+      The project: code your own AI to play your character in a game. Write the project in Dart, target
+      the web, make it a PWA, implement native-ish features like payments and passes. That's the high-
+      level. Details to come in other posts.
+    </p>
+  </div>
+
+  <footer>
+    <p class="footnotes">Built with the cooperation of several phalanges and a biological neural network; uses <a href="https://latex.vercel.app/">latex.css</a> and <a href="https://prismjs.com/">Prism</a>.</p>
+  </footer>
+  <script>
+    document
+      .querySelector("#dark-mode-toggle")
+      .addEventListener('click', () => {
+        document.body.classList.toggle("latex-dark");
+      });
+  </script>
+</body>
+
 </html>
