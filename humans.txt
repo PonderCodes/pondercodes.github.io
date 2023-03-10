@@ -1,0 +1,17 @@
+# Intro
+  Crediting the humans whose work is consumed by the author or used to build projects
+
+# Team
+  Author, coder, procrastinator: Ponder
+  Contact: hello [-at-] ponder.codes
+
+# The Shoulders Upon Which I Stand
+  Project: LaTeX.css
+  Author: Vincent Dörig
+  Home: https://latex.vercel.app/
+
+  Project: PrismJS
+  Home: https://prismjs.com/
+
+  Project: The Dart Programming Language
+  Home: https://dart.dev/
